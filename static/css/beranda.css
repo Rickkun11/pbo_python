@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap');
+
+/* CSS Slider */
+.slide1_h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.slide2_h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 50px;
+    color: #000;
+}
+
+.slide3_h1{
+    font-weight: 1000;
+}
+
+.slide3-a{
+    color: #000;
+    font-size: 25px;
+    border: 3px solid;
+    border-color: #439A97;
+    padding: 5px 15px 5px 15px;
+    transition: .5s;
+}
+
+.slide3-a:hover{
+    background: #439A97;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.judul{
+    margin: 100px 0px 30px 0px;
+}
+
+.judul-h5, .judul-h3{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.judul-h3 span{
+    color: #439A97;
+    font-weight: 700;
+}
+
+.crud-icon{
+    margin: 70px 10px 20px 20px;
+}
+
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tambah-h1{
+    margin: 30px 0px 20px 100px;
+    padding-left: 10px;
+    font-family: bahnschrift;
+    border-left: 7px solid;
+    border-color: #439A97;
+}

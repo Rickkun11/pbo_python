@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* CSS Navbar */
+.navbar{
+    padding: 30px 50px 20px 50px;
+    background: #62B6B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+.bar_list{
+    display: flex;
+}
+
+.bar_menu{
+    padding: 10px;
+}
+
+.bar_link{
+    color: #fff;
+    transition: 1s;
+}
+
+.bar_link:hover{
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    background: #61876E;
+    border-radius: 20px;
+}
+
+
